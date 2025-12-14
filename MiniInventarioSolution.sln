@@ -3,21 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniInventarioSolution.Domain", "MiniInventarioSolution.Domain\MiniInventarioSolution.Domain.csproj", "{980C3F34-2D7C-4BB9-ADD8-A2F05620BC34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniInventarioSolution.Domain", "MiniInventarioSolution.Domain\MiniInventarioSolution.Domain.csproj", "{980C3F34-2D7C-4BB9-ADD8-A2F05620BC34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniInventarioSolution.Application", "MiniInventarioSolution.Application\MiniInventarioSolution.Application.csproj", "{12F29D70-A512-43B5-A97D-00D3396B76BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniInventarioSolution.Application", "MiniInventarioSolution.Application\MiniInventarioSolution.Application.csproj", "{12F29D70-A512-43B5-A97D-00D3396B76BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniInventarioSolution.Infrastructure", "MiniInventarioSolution.Infrastructure\MiniInventarioSolution.Infrastructure.csproj", "{C3586D80-5BEA-436E-ABDD-9802DA5F9DA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniInventarioSolution.Infrastructure", "MiniInventarioSolution.Infrastructure\MiniInventarioSolution.Infrastructure.csproj", "{C3586D80-5BEA-436E-ABDD-9802DA5F9DA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniInventarioSolution.API", "MiniInventarioSolution.API\MiniInventarioSolution.API.csproj", "{B9E84C6C-9F63-4AC4-88F5-3964678B52CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniInventarioSolution.API", "MiniInventarioSolution.API\MiniInventarioSolution.API.csproj", "{B9E84C6C-9F63-4AC4-88F5-3964678B52CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniInventario_MVC", "MiniInventario_MVC\MiniInventario_MVC.csproj", "{44A034BB-B51F-4C1C-9811-1EB479ABB581}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{980C3F34-2D7C-4BB9-ADD8-A2F05620BC34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +35,15 @@ Global
 		{B9E84C6C-9F63-4AC4-88F5-3964678B52CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9E84C6C-9F63-4AC4-88F5-3964678B52CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9E84C6C-9F63-4AC4-88F5-3964678B52CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A034BB-B51F-4C1C-9811-1EB479ABB581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A034BB-B51F-4C1C-9811-1EB479ABB581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A034BB-B51F-4C1C-9811-1EB479ABB581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A034BB-B51F-4C1C-9811-1EB479ABB581}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28EC1D54-D032-457D-831B-134457CFCAD7}
 	EndGlobalSection
 EndGlobal

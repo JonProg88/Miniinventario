@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Inventario";
+}
+    
+
+<h2 class="mb-4">Mini Inventario</h2>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <div class="row">
+            <div class="col">
+                <input id="nombre" class="form-control" placeholder="Nombre" />
+            </div>
+            <div class="col">
+                <input id="stock" type="number" class="form-control" placeholder="Stock" />
+            </div>
+            <div class="col">
+                <input id="precio" type="number" class="form-control" placeholder="Precio" />
+            </div>
+            <div class="col">
+                <button class="btn btn-primary w-100" onclick="crearProducto()">Agregar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>Nombre</th>
+            <th>Stock</th>
+            <th>Precio</th>
+            <th>Valor Inventario</th>
+        </tr>
+    </thead>
+    <tbody id="tablaProductos"></tbody>
+</table>
+
+
+@section Scripts {
+    <script src="/js//productos.js"></script>
+}
