@@ -1,0 +1,6 @@
+@MiniInventarioSolution.API_HostAddress = http://localhost:5129
+
+GET {{MiniInventarioSolution.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
