@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniInventarioSolution.Infr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniInventarioSolution.API", "MiniInventarioSolution.API\MiniInventarioSolution.API.csproj", "{B9E84C6C-9F63-4AC4-88F5-3964678B52CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniInventario_MVC", "MiniInventario_MVC\MiniInventario_MVC.csproj", "{44A034BB-B51F-4C1C-9811-1EB479ABB581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniInventario_MVC", "MiniInventario_MVC\MiniInventario_MVC.csproj", "{44A034BB-B51F-4C1C-9811-1EB479ABB581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiProductosMVC", "ApiProductosMVC\ApiProductosMVC.csproj", "{5FD5783C-306C-4D81-91A3-B2422C8B28A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{44A034BB-B51F-4C1C-9811-1EB479ABB581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44A034BB-B51F-4C1C-9811-1EB479ABB581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44A034BB-B51F-4C1C-9811-1EB479ABB581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD5783C-306C-4D81-91A3-B2422C8B28A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD5783C-306C-4D81-91A3-B2422C8B28A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD5783C-306C-4D81-91A3-B2422C8B28A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD5783C-306C-4D81-91A3-B2422C8B28A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
