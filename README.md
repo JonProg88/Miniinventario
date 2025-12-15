@@ -1,3 +1,11 @@
+Para ApiProductosMVC
+
+Instalacion 
+dotnet add package Dapper
+dotnet add package Microsoft.Data.SqlClient
+dotnet add package Swashbuckle.AspNetCore
+
+
 * Creacion de la solucion
 
 dotnet new sln -n MiniInventarioSolution
